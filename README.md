@@ -17,8 +17,8 @@
 
 ## Websites I Recommend
  
- * [Youtube](youtube.com)
+ * [Youtube](https://www.youtube.com)
    * What I find interesting about this site is you can look up and watch anything you would like on this platform.
 
-* [ESPN](espn.com)
+* [ESPN](https://espn.com)
   * What I like about this website is you can look up stats for any player you would like to follow and check to see how they're doing in any given season.
