@@ -18,7 +18,7 @@
 ## Websites I Recommend
  
  * [Youtube](https://www.youtube.com)
-   * What I find interesting about this site is you can look up and watch anything you would like to watch on this platform. There's tons of videos where you can either learn something from or just watch for entertainment. 
+   * What I find interesting about this site is you can look up and watch anything you would like to watch on this platform. There's tons of videos where you can either learn something from or watch for entertainment. 
 
 * [ESPN](https://espn.com)
-  * What I like about this website is you can look up stats for any player you would like to follow and check to see how they're doing in any given season. This website also includes things such as articles, insight on recruits your favorite college team has in their sights, and many more.
+  * What I like about this website is you can look up stats for any player you would like to follow and check to see how they're doing in any given season. This website also includes things such as articles, insight on recruits your favorite college team has on their board, and many more things to look at.
