@@ -1,4 +1,5 @@
 
+
 // This section loads modules.  It loads the Express server and stores
 // it in "express", then creates a application, a router, and a path handler
 const express = require('express');
@@ -23,17 +24,17 @@ app.use(express.static(path.join(__dirname, 'public')));
 router.get('/', function(req, res){
     // It just returns a file to their browser 
     // from the same directory it's in, called gradebook.html
-    res.sendFile(path.join(__dirname, 'gradebook.html'));
+    res.sendFile(path.join(__dirname, 'public', 'gradebook.html'));
 });
 
 app.use("/", router);
 
 router.get('/api/grades',function(req, res){
     pool.query(
-        `SELECT Students.student_id, first_name, last_name, AVG(assignments.grade) as total_grade \
-            FROM Students  \
-            LEFT JOIN Assignments ON Assignments.student_id = Students.student_id \
-            GROUP BY Students.student_id \
+        `SELECT students.student_id, first_name, last_name, AVG(assignments.grade) as total_grade \
+            FROM students  \
+            LEFT JOIN assignments ON assignments.student_id = students.student_id \
+            GROUP BY students.student_id \
             ORDER BY total_grade DESC`,
         [],
         function( err, result){
