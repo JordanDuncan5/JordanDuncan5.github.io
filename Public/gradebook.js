@@ -12,7 +12,7 @@
 
 //TODO: REMOVE THIS 
 //Call the stubs to demonstrate the workflow
-//const gradeData = fetchGradeData();
+const gradeData = fetchGradeData();
 //populateGradebook(gradeData);
 //END REMOVE
 
@@ -48,13 +48,13 @@ function populateGradebook(data) {
         data.forEach(function(assignment){ // For each row of data we're passed in
             let row = document.createElement("tr"); // Create table row element
             let columns = []; // Handy place to stick the columns of information
-            columns.name = document.createElement('td'); // The first columns table data will be the name
+            columns.name = document.createElement("td"); // The first columns table data will be the name
             columns.name.appendChild(
                 // Concatenate the full name: "last_name, first_name"
                 document.createTextNode(assignment.last_name + ", " + assignment.first_name)
 
             );
-            columns.grade = document.createElement('td'); // Second column will be the grade
+            columns.grade = document.createElement("td"); // Second column will be the grade
             columns.grade.appendChild(
                 // Just put the name in text, you could be fancy and figure out the letter grade here
                 // with either a bunch of conditions, or a Javascript "switch" statement
